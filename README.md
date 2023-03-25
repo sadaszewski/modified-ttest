@@ -4,7 +4,7 @@
 ```
 
 # modified-ttest
-Modified t-test reimplementation from R\'s SpatialPack (paper by Dutilleul)
+Modified t-test reimplementation from R's SpatialPack (paper by Dutilleul)
 for Python
 
 This implementation relies almost entirely on the C code from SpatialPack: 
