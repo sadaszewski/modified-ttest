@@ -37,6 +37,17 @@ typedef struct TTEST_struct {
     *stats;         /* association t-test */
 } TTEST_struct, *TTEST;
 
+/* find_interval() */
+int
+find_interval(double *y, int n, double x)
+{
+  for (int i = 0; i < n; i++) {
+    if (x <= y[i])
+      return i;
+  }
+  return (n - 1);
+}
+
 /* static functions.. */
 TTEST mod_ttest_init(double *, double *, double *, double *, int *, double *, double *, double *, double *, double *);
 void mod_ttest_free(TTEST);
