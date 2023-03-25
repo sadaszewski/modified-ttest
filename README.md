@@ -1,3 +1,8 @@
+```diff
+- NOTE: Not tested extensively. A few manual checks against outputs
+- of the SpatialPack implementation checked out perfectly though.
+```
+
 # modified-ttest
 Modified t-test reimplementation from R\'s SpatialPack (paper by Dutilleul)
 
