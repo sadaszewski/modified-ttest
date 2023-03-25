@@ -9,13 +9,14 @@ from Cython.Build import cythonize
 import numpy
 
 extensions = [
-    Extension('modified_ttest.ext', ['modified_ttest/mod_ttest.c,
+    Extension('modified_ttest.ext', ['modified_ttest/mod_ttest_c.c',
             'modified_ttest/mod_ttest.pyx'],
         include_dirs=[ numpy.get_include() ],
         libraries=[],
         library_dirs=[],
-        extra_compile_args=['-std=c++14'],
-        language='c++')
+        #extra_compile_args=['-std=c++14'],
+        #language='c++'
+    )
 ]
 
 setup(

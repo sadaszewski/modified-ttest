@@ -9,4 +9,6 @@ glp_ext/glp_ext.cpp
 *.so
 /notebooks/
 /pcbrain_ext/pcbrain_ext.cpp
+/modified_ttest/mod_ttest.c
+/modified_ttest/mod_ttest.cpp
 
