@@ -1,0 +1,12 @@
+/C-PCB/
+/build/
+__pycache__
+.ipynb_checkpoints/
+*.pyc
+glp_ext/glp_ext.c
+glp_ext/glp_ext.cpp
+*.egg-info
+*.so
+/notebooks/
+/pcbrain_ext/pcbrain_ext.cpp
+
