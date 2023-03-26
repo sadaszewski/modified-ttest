@@ -1,6 +1,6 @@
 ```diff
 - NOTE: Not tested extensively. A few manual checks against outputs
-- of the SpatialPack implementation checked out perfectly though.
+- of the SpatialPack implementation turned out perfectly though.
 ```
 
 # modified-ttest
@@ -18,6 +18,8 @@ import modified_ttest
 import numpy as np
 from sklearn.datasets import load_breast_cancer
 from scipy.stats import f
+
+data = load_breast_cancer()['data']
 
 m1 = np.corrcoef(data[np.random.permutation(len(data))[:5]], rowvar=False)
 m2 = np.corrcoef(data[np.random.permutation(len(data))[:5]], rowvar=False)
